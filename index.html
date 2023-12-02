@@ -1,13 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>Nerd Prime Homepage</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="jquery.min.js"></script>
+  <script src="slick.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="slick.css"/>
 </head>
 <body>
-    <h1>Prova per deploy</h1>
-    <img src="jujutsu.jpg">
-    <p>14:20 added paragraph</p>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="nerdprime.png" alt="Nerd Prime Logo">
+      </div>
+      
+      <div class="menu">
+        <a href="#" class="active">Home</a>
+        <a href="gaming.html">Gaming</a>
+        <a href="#">Board Games</a>
+        <a href="#">Calendario</a>  
+      </div>
+
+      <div class="user">
+        <i class="fas fa-user"></i>
+        <div class="dropdown">
+          <a href="#">Il mio profilo</a>
+          <a href="#">Impostazioni</a>
+          <a href="#">Logout</a>
+        </div>
+      </div>
+    </nav>
+    <div class="hero">
+      <h1>Serie, film, giochi di società e molto altro.</h1>
+      <p>Rimani aggiornato.</p>
+      <button>Consulta il Calendario!</button>
+    </div>
+  </header>
+
+  <section class="featured">
+    <h2>Serie e Film</h2>
+    <input type="text" id="searchBar" placeholder="🔎Cerca...">
+    <div class="show-list">
+        <div class="show">
+            <img src="Locandine/onepiece.webp" width="405px" height="250px" alt="One Piece"><div class="overlay"></div>
+            <h3>One Piece</h3>
+          </div>
+          <div class="show">
+            <img src="Locandine/residentevil.jpg"  width="405px" height="250px" alt="Resident Evil"><div class="overlay"></div>
+            <h3>Resident Evil</h3>
+          </div>
+          <div class="show">
+            <img src="Locandine/the witcher.webp"  width="405px" height="250px" alt="The Witcher 3" ><div class="overlay"></div>
+            <h3>The Witcher 3</h3>
+          </div>
+          <div class="show">
+            <img src="Locandine/blackmirror.webp" width="405px" height="250px" alt="Black Mirror 6"><div class="overlay"></div>
+            <h3>Black Mirror 6</h3>
+          </div>
+
+          <div class="show">
+            <a href="seriesjj.html"><img src="Locandine/jujutsukaisen1.jpg" width="405px" height="250px" alt="Jujutsu Kaisen S1"><div class="overlay"></div></a>
+            <h3>Jujutsu Kaisen S1</h3>
+          </div>
+          <div class="show">
+            <a href="seriesjj2.html"><img src="Locandine/jujutsukaisen2.jpg"  width="405px" height="250px" alt="Jujutsu Kaisen S2"><div class="overlay"></div></a>
+            <h3>Jujutsu Kaisen S2</h3>
+          </div>
+          <div class="show">
+            <a href="littlemermaid.html"><img src="Locandine/littlemermaid.jpg"  width="405px" height="250px" alt="Little Mermaid" ><div class="overlay"></div></a>
+            <h3>Little Mermaid</h3>
+          </div>
+          <div class="show">
+            <a href="series.html"><img src="Locandine/demonslayer.webp" width="405px" height="250px" alt="Demon Slayer Swordsmith Village Arc"><div class="overlay"></div></a>
+            <h3>Demon Slayer <br> Swordsmith Village Arc</h3>
+          </div>
+    </div>
+  </section>
+
+  <div class="social-section">
+    <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+    <!-- Aggiungi altri loghi dei social media -->
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Nerd Prime</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
